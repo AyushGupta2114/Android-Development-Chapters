@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Activities and Layout</string>
+    <string name="batman">Batman</string>
+    <string name="IronMan">Ironman</string>
 </resources>
