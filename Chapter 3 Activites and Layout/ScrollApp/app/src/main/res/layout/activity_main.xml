@@ -7,10 +7,14 @@
     tools:context=".MainActivity">
 
     <HorizontalScrollView
-        android:layout_width="389dp"
-        android:layout_height="669dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="22dp">
+        android:layout_width="338dp"
+        android:layout_height="399dp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.231">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -19,8 +23,8 @@
 
             <ImageView
                 android:id="@+id/imageView2"
-                android:layout_width="374dp"
-                android:layout_height="514dp"
+                android:layout_width="352dp"
+                android:layout_height="374dp"
                 android:contentDescription="@string/todo1"
                 android:padding="50dp"
                 app:srcCompat="@drawable/ironman"
@@ -28,20 +32,35 @@
 
             <ImageView
                 android:id="@+id/imageView"
-                android:layout_width="374dp"
-                android:layout_height="514dp"
+                android:layout_width="357dp"
+                android:layout_height="374dp"
                 android:contentDescription="@string/todo"
                 android:padding="50dp"
                 app:srcCompat="@drawable/ironman" />
 
             <ImageView
                 android:id="@+id/imageView3"
-                android:layout_width="374dp"
-                android:layout_height="514dp"
+                android:layout_width="352dp"
+                android:layout_height="397dp"
                 android:contentDescription="@string/todo2"
                 android:padding="50dp"
                 app:srcCompat="@drawable/ironman" />
+
         </LinearLayout>
     </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="188dp"
+        android:layout_weight="1"
+        android:rotationX="14"
+        android:text="SUBMIT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

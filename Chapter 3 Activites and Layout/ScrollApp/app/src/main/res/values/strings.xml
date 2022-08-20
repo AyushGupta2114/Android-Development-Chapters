@@ -6,4 +6,5 @@ Tasks accompanying and related to programming include testing, debugging, source
     <string name="todo">TODO</string>
     <string name="todo1">TODO</string>
     <string name="todo2">TODO</string>
+    <string name="button">Button</string>
 </resources>
