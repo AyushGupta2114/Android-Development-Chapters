@@ -9,4 +9,6 @@
     <string name="name">Name</string>
     <string name="submit">SUBMIT</string>
     <string name="email">Email</string>
+    <string name="concern">Concern</string>
+    <string name="phone_no">Phone No</string>
 </resources>
