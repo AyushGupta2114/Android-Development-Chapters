@@ -12,7 +12,7 @@ import java.io.DataOutputStream;
 
 public class MainActivity extends AppCompatActivity {
     EditText name;
-    public static final String Extra_NAMAyushE = "com.example.multiscreen.extra.NAME";
+    public static final String Extra_NAME = "com.example.multiscreen.extra.NAME";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
