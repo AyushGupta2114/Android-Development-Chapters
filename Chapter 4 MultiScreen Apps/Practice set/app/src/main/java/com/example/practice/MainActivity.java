@@ -11,8 +11,8 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     private String[] questions={"Java is a person",
     "Java wa introduced in 1233 ?", "Java was created using python ?",
-    "java has abstract classes ?"};
-    private  boolean[] answers = {false,false,false,true};
+    "java has abstract classes ?","Java supports interfaces"};
+    private  boolean[] answers = {false,false,false,true,true};
     private  int score=0;
     Button yes;
     Button no;
@@ -29,26 +29,50 @@ public class MainActivity extends AppCompatActivity {
         yes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(index+1==questions.length){
-                    Toast.makeText(MainActivity.this, "Your score is "+score, Toast.LENGTH_SHORT).show();
+                if(index<=questions.length-1){
+                    //if you have given correct answers
+                    if(answers[index]==true){
+                        score++;
+                    }
+                    index++;
+                    if(index<=questions.length-1)
+                    {
+                        question.setText(questions[index]);
+                    }
+                    else{
+                        Toast.makeText(MainActivity.this, "Your Score is "+score, Toast.LENGTH_SHORT).show();
+                    }
+
                 }
-                if(answers[index]==true){
-                    score++;}
-                question.setText(questions[index++]);
+                else{
+                    Toast.makeText(MainActivity.this, "Restart the app to play again", Toast.LENGTH_SHORT).show();
+                }
+
             }
         });
         no.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(index+1==questions.length){
-                    Toast.makeText(MainActivity.this, "Your score is " +score, Toast.LENGTH_SHORT).show();
+                // If the array is not going out of bounds
+                if(index<=questions.length-1){
+                    //if you have given correct answers
+                    if(answers[index]==false){
+                        score++;
+                    }
+                    index++;
+                    if(index<=questions.length-1)
+                    {
+                        question.setText(questions[index]);
+                    }
+                    else{
+                        Toast.makeText(MainActivity.this, "Your Score is "+score, Toast.LENGTH_SHORT).show();
+                    }
+
                 }
-                if(answers[index]==false){
-                    score--;}
-                    question.setText(questions[index++]);
+                else{
+                    Toast.makeText(MainActivity.this, "Restart the app to play again", Toast.LENGTH_SHORT).show();
+                }
             }
         });
-
-
     }
 }
