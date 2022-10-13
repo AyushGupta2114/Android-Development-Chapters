@@ -9,3 +9,12 @@
 </p>
 
 
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/94870982/195625132-d390b784-102b-45f4-8912-bb665e50a06a.png"  width="300" height="500" align="left"/>
+  <img src="https://user-images.githubusercontent.com/94870982/195626532-f8986129-188b-4b78-9e79-a584b8b42dd6.png"  width="300" height="500" align="center"/> 
+  <img src="/img3.png" width="100" />
+</p>
+
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/94870982/195628385-7ab41fe2-b2f5-49ed-b865-848556852214.png"  width="300" height="500" align="left"/>
+</p>
