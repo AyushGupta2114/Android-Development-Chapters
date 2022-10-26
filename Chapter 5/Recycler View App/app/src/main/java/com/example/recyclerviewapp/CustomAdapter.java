@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder> {
 
-    private String[] localDataSet;
+    private final String[] localDataSet;
 
     /**
      * Provide a reference to the type of views that you are using
@@ -33,16 +33,13 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
     }
 
     /**
-     * Initialize the dataset of the Adapter.
-     *
-     * @param dataSet String[] containing the data to populate views to be used
-     * by RecyclerView.
+     * Step  1: Initialize the dataset of the adapter
      */
     public CustomAdapter(String[] dataSet) {
         localDataSet = dataSet;
     }
-
-    // Create new views (invoked by the layout manager)
+    // Step 2: Create new views (invoked by the layout manager)
+    @NonNull
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup viewGroup, int viewType) {
         // Create a new view, which defines the UI of the list item
@@ -51,7 +48,8 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
 
         return new ViewHolder(view);
     }
-    // Replace the contents of a view (invoked by the layout manager)
+
+    //  Step 3 : Replace the contents of a view (invoked by the layout manager)
     @Override
     public void onBindViewHolder(ViewHolder viewHolder, final int position) {
 
