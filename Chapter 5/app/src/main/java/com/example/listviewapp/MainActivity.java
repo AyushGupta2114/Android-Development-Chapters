@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     ListView listview;
-    String arr[]={"This is ","Item","Item2","Another item"};
+    String arr[]={"This is ","Item","Item2","Another item","another","mail one","mail 2 on"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
