@@ -5,14 +5,12 @@
 <p float="left">
   <img src="https://user-images.githubusercontent.com/94870982/195607242-8456ca8d-d56b-4906-8b77-ff9edcdbd22b.png"  width="300" height="500" align="left"/>
   <img src="https://user-images.githubusercontent.com/94870982/195607460-da42d0aa-506e-4138-bf73-d6fefaba8090.png"  width="300" height="500" align="center"/> 
-  <img src="/img3.png" width="100" />
 </p>
 
 
 <p float="left">
   <img src="https://user-images.githubusercontent.com/94870982/195625132-d390b784-102b-45f4-8912-bb665e50a06a.png"  width="300" height="500" align="left"/>
   <img src="https://user-images.githubusercontent.com/94870982/195626532-f8986129-188b-4b78-9e79-a584b8b42dd6.png"  width="300" height="500" align="center"/> 
-  <img src="/img3.png" width="100" />
 </p>
 
 <p float="left">
