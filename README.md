@@ -1,6 +1,6 @@
-# These are different chapters in the journey of Android Develeopement 
+# These are different chapters in the journey of Android Developement 
 
-## Each chapter has its app with only that feature😎😄
+## Each chapter has different features😎😄 like scroll and media player
 
 <p float="left">
   <img src="https://user-images.githubusercontent.com/94870982/195607242-8456ca8d-d56b-4906-8b77-ff9edcdbd22b.png"  width="300" height="500" align="left"/>
